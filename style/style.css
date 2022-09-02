@@ -2,6 +2,10 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+.inputLocation{
+    border: none;
+    background: transparent;
+}
 .row{
     display: flex;
     justify-content: space-between;
