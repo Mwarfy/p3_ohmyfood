@@ -2,14 +2,21 @@
     .menuDesktop{
         display: flex;
         flex-direction: row;
+        align-items: inherit;
         gap:20px;
     }
-    .fonctionne > div{
-        display: flex;
+    .reserve{
+        padding: 5%;
+    }
+    .firstRow{
         flex-direction: row;
     }
-    .fonctionne > div > div{
+    .firstRow div{
         width: 33%;
+    }
+    .fonctionne p{
+        position: inherit;
+        display: flex;
     }
     .restaurant > div{
         display: flex;

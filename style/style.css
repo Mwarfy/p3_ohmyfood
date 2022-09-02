@@ -2,11 +2,6 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.color{
-    color: #9356DC;
-    color: #FF79DA;
-    color: #99E2D0;
-}
 .row{
     display: flex;
     justify-content: space-between;
@@ -73,14 +68,14 @@ img{
     flex-direction: column;
     padding: 35px
 }
-.fonctionne>div{
+.firstRow{
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
 .fonctionne p{
-    position: absolute;
+    position:absolute;
     left: 25px;
     display: flex;
     width: 20px;
