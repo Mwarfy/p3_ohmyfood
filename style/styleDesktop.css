@@ -18,6 +18,7 @@
         margin: 0 15px;
     }
     .fonctionne p{
+        margin-left: -10px;
         position: inherit;
         display: flex;
     }
@@ -28,7 +29,10 @@
         display: flex;
         flex-direction: row;
     }
+    .head img{
+        width: 25%;
+    }
     .logoDesktop{
-        width: 50%!important;
+        width: 20%;
     }
 }
