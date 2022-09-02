@@ -14,12 +14,21 @@
     .firstRow div{
         width: 33%;
     }
+    .fonctionne i{
+        margin: 0 15px;
+    }
     .fonctionne p{
         position: inherit;
         display: flex;
     }
+    .fonctionne div div{
+        justify-content: inherit;
+    }
     .restaurant > div{
         display: flex;
         flex-direction: row;
+    }
+    .logoDesktop{
+        width: 50%!important;
     }
 }
