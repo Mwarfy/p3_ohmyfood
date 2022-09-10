@@ -106,8 +106,19 @@ header i:hover{
     margin-right: 0;
     scale:1;
 }
+.box-menu:hover .ok > i{
+    animation: animrotate 1s;
+}
 .inner-box{
     width: 95%;
+}
+@keyframes animrotate{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
 }
 .ok i{
     display: flex;
