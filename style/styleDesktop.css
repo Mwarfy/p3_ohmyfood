@@ -10,9 +10,10 @@
     }
     .firstRow{
         flex-direction: row;
+        justify-content: space-evenly;   
     }
     .firstRow div{
-        width: 33%;
+        width: 31%;
     }
     .fonctionne i{
         margin: 0 15px;
@@ -34,6 +35,15 @@
     }
     .logoDesktop{
         width: 20%;
+    }
+    .restaurant a{
+        height: 265px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .row{
+        padding: 35px;
     }
 }
 

@@ -20,7 +20,7 @@
     ></script>
   </head>
   <body>
-    <div class="loading spinner"></div>
+    <div class="loader"><i class="fas fa-spinner fa-pulse fa-6x"></i></div>
     <div class="content">
       <main>
         <div class="head">
@@ -168,13 +168,4 @@
       </footer>
     </div>
   </body>
-  <script>
-    const loading = document.querySelector(".loading");
-    const content = document.querySelector(".content");
-    content.style.opacity = "0";
-    setTimeout(() => {
-      loading.style.opacity = "0";
-      content.style.opacity = "1";
-    }, 2000);
-  </script>
 </html>
