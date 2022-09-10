@@ -44,7 +44,7 @@ header i:hover{
 .menu section{
     width: 100%;
 }
-.menu section>p{
+.menu section>h4{
     width: 40px;
     padding-bottom: 10px;
     border-bottom: 3px solid #99E2D0;
