@@ -66,7 +66,6 @@ header i:hover{
     overflow:hidden;
     animation: animboxmenu 1s;
     animation-fill-mode: both;
-    animation-timing-function: cubic-bezier(800ms);
 
 }
 
@@ -93,8 +92,12 @@ header i:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
 .menu section>div p{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
     margin: 0;
 }
 .menu button{
