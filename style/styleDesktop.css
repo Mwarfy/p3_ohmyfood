@@ -5,6 +5,10 @@
         align-items: inherit;
         gap:20px;
     }
+    .menuDesktop section{
+        width:30%;
+    }
+
     .reserve{
         padding: 5%;
     }
