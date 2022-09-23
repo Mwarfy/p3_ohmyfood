@@ -154,7 +154,7 @@ img{
     -webkit-text-fill-color: transparent;
 }
 .heartIcon:hover .block{
-    visibility:hidden;
+    display:none;
 }
 .restaurant p{
     margin: 0;
