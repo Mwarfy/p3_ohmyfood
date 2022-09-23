@@ -143,7 +143,7 @@ img{
     text-decoration: none;
 }
 .none{
-    display: none;
+    visibility:hidden;
 }
 .heartIcon:hover .none{
     cursor: pointer;
