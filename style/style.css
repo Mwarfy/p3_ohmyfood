@@ -147,13 +147,13 @@ img{
 .heartIcon:hover .none{
     cursor: pointer;
     transition-duration: 500ms;
-    display: block;
+    visibility: visible;
     background: linear-gradient(#FF79DA,#9356DC);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .heartIcon:hover .block{
-    display: none;
+    visibility:hidden;
 }
 .restaurant p{
     margin: 0;
