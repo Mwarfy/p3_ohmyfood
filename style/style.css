@@ -66,6 +66,7 @@ img{
     cursor: pointer;
     transition-duration: 500ms;
     transform:scale(1.06);
+    opacity: 0.9;
 }
 .fonctionne{
     display: flex;
