@@ -142,12 +142,33 @@ img{
     color: black;
     text-decoration: none;
 }
+.heartIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 36px;
+    height: 25px;
+}
+.block{
+    top: 5px;
+    right: 10px;
+    position: absolute;
+}
 .none{
     visibility:hidden;
+    top: 5px;
+    right: 10px;
+    position: absolute;
+    transform: scale(0);
+    /* transform:scale(1.1);
+    transition: all 200ms ease-out;  */
 }
 .heartIcon:hover .none{
     cursor: pointer;
     transition-duration: 500ms;
+    transform: scale(1.1);
+    
     visibility: visible;
     background: linear-gradient(#FF79DA,#9356DC);
     -webkit-background-clip: text;
